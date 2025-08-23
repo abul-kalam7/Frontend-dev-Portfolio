@@ -1,0 +1,99 @@
+*{
+    font-family: Gelasio , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 80px;
+    background-color: #38035c;
+    box-shadow: 0px .2px white;
+}
+
+.header-content{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #38035c;
+    height: 80px;
+    width: 70vw;
+}
+
+.name a{
+    font-weight: 700;
+    color: rgb(51, 168, 214);
+   font-size: 27px;
+   cursor: pointer;
+}
+ 
+.right a{
+     padding: 8px 12px;
+     margin-left: 2px;
+     text-decoration: none;
+     color: rgb(214, 214, 214);
+     font-size: 18px;
+    }
+ 
+    .right a:hover{
+        border: .5px solid black;
+        color: white;
+        background-color: rgba(67, 70, 71, 0.747);
+        border-radius: 5px;
+    }
+    
+    .home{
+        height: 100vh;
+        background: rgb(3 7 18);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-info{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 45vw;
+        color: white;
+    }
+
+    .hinfo-hi{
+        font-size: 48px; 
+        margin-bottom: 25px;
+    }
+
+    .hinfo-span{
+        font-size: 72px;
+        text-align: center;
+    }
+
+    .hinfo-p{
+        font-size: 18px;
+    }
+
+    .hinfo-pro  a{
+        margin: 5px;
+        padding: 20px;
+        background-color: red;
+    }
+    
+    .hinfo-link a{
+        padding: 10px;
+        background-color: blue;
+        margin: 10px;
+    }
+
+    .project{ 
+        color: green;
+        height: 100vh;
+        background-color: #ff0000;
+    }
